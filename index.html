@@ -1,111 +1,183 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="张智博的个人学术主页：金融工程、资本市场、ESG、企业风险与数据研究。">
-  <title>张智博 · 金融工程与学术研究</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <main>
-    <header class="site-header">
-      <a class="wordmark" href="#top" aria-label="返回首页">Z.Z.B.</a>
-      <nav aria-label="主导航">
-        <a href="#about">简介</a><a href="#research">研究</a><a href="#awards">荣誉</a><a href="#contact">联系</a>
-      </nav>
-    </header>
-
-    <section class="hero" id="top">
-      <div class="hero-kicker"><span>FINANCIAL ENGINEERING</span><span>BEIJING · CHINA</span></div>
-      <div class="hero-main">
-        <div><p class="eyebrow">UNDERGRADUATE · RESEARCHER</p><h1>张智博<span>Zhang Zhibo</span></h1></div>
-        <p class="hero-intro">金融工程本科生，关注资本市场、企业风险与 ESG。<br>尝试用严谨的实证方法，理解不确定性如何被市场定价。</p>
-      </div>
-      <div class="hero-footer">
-        <a class="primary-link" href="#research">查看研究与项目 <span aria-hidden="true">↘</span></a>
-        <p>GPA 3.6 / 5.0 · 专业排名 2 / 21</p>
-      </div>
-    </section>
-
-    <section class="section about" id="about">
-      <div class="section-label"><span>01</span><p>个人简介 / ABOUT</p></div>
-      <div class="about-content">
-        <h2>在金融、数据与现实问题<br>交汇处持续探索。</h2>
-        <div class="about-copy">
-          <p>现就读于北京工业大学耿丹学院金融工程专业。研究兴趣集中于公司金融、资本市场、ESG 与机器学习在金融研究中的应用。</p>
-          <p>我重视从清晰的问题出发，建立可检验的研究框架，并让数据分析真正服务于解释。目前正在推进一项关于地缘政治冲击与 A 股企业市场韧性的独立研究。</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="张智博的个人学术主页：金融科技、绿色金融、行为金融、ESG 与可解释机器学习研究。"
+    />
+    <title>Zhibo Zhang | Financial Engineering</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="home">
+      <header class="site-header">
+        <a class="identity" href="#home" aria-label="返回主页">
+          <span class="avatar">
+            <img src="assets/life-dog.webp" alt="" />
+          </span>
+          <span>ZHIBO ZHANG</span>
+        </a>
+        <nav aria-label="主导航">
+          <a class="active" href="#home">Home</a>
+          <a href="#research">Research</a>
+          <a href="#archive">Archive</a>
+          <a href="#journey">Journey</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-tools" aria-label="语言与状态">
+          <span>中</span><span class="status-dot" aria-label="Online">•</span>
         </div>
-      </div>
-      <div class="education-card">
-        <div><p class="card-label">EDUCATION</p><h3>北京工业大学耿丹学院</h3><p>金融工程 · 本科</p></div>
-        <div class="education-meta"><span>GPA</span><strong>3.6 / 5.0</strong><span>RANK</span><strong>2 / 21</strong></div>
-      </div>
-    </section>
+      </header>
 
-    <section class="section research" id="research">
-      <div class="section-label"><span>02</span><p>研究与项目 / RESEARCH</p></div>
-      <div class="section-heading"><h2>Selected Research</h2><p>从事件冲击、风险识别到企业行为，建立可解释的证据链。</p></div>
-      <div class="research-list">
-        <article class="research-item">
-          <div class="research-number">01</div>
-          <div class="research-body">
-            <p class="research-type">独立一作 · 在研</p>
-            <h3>极端地缘政治冲击下A股企业市场韧性识别研究</h3>
+      <section class="hero" aria-labelledby="hero-title">
+        <figure class="hero-portrait">
+          <img src="assets/portrait-main.webp" alt="张智博的生活照" />
+          <figcaption>2026 · BEIJING, CHINA</figcaption>
+        </figure>
+        <div class="hero-copy">
+          <p class="overline">FINANCIAL ENGINEERING · UNDERGRADUATE</p>
+          <h1 id="hero-title">Zhibo Zhang</h1>
+          <p class="hero-field">FinTech, Green Finance &amp; Behavioral Finance</p>
+          <div class="rule"></div>
+          <p class="hero-summary">
+            金融工程本科生，关注金融科技、绿色金融与行为金融。尝试将实证研究、多源金融数据和可解释机器学习结合起来，理解企业风险与资本市场韧性。
+          </p>
+          <div class="rule"></div>
+          <div class="hero-facts">
+            <div>
+              <span>EDUCATION</span>
+              <strong>北京工业大学耿丹学院</strong>
+              <p>金融工程 · 本科</p>
+            </div>
+            <div>
+              <span>ACADEMIC PROFILE</span>
+              <strong>GPA 3.7 / 5.0</strong>
+              <p>专业排名 2 / 21 · 前 10%</p>
+            </div>
+          </div>
+          <div class="hero-actions">
+            <a class="button button-light" href="#research">View research <span>→</span></a>
+            <a class="button button-outline" href="mailto:zhibozhang060427@outlook.com">
+              CV available by email <span>→</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section research-section" id="research">
+        <div class="section-index"><span>01</span><p>RESEARCH</p></div>
+        <div class="section-heading">
+          <p class="overline">SELECTED WORK</p>
+          <h2>Research</h2>
+          <p>从清晰的问题出发，用可检验的证据解释金融市场中的风险、分歧与韧性。</p>
+        </div>
+        <div class="research-grid">
+          <article class="research-card">
+            <p class="card-label">INDEPENDENT FIRST AUTHOR · 2026</p>
+            <h3>极端地缘政治冲击下 A 股企业市场韧性识别研究</h3>
             <h4>基于多源 ESG 评级与可解释机器学习</h4>
-            <p>围绕极端外部冲击下的企业市场韧性，尝试结合多源 ESG 评级、事件研究与可解释机器学习，识别企业韧性的差异及其影响机制。</p>
-            <div class="tags"><span>ESG</span><span>市场韧性</span><span>可解释机器学习</span></div>
+            <p>
+              整合 Wind、华证、商道、CNRDS、润灵环球五家机构的 ESG 评级与 iFinD
+              行情数据，构建 4,840 家 A 股上市公司的长期 ESG
+              水平、评级分歧和市场韧性指标。
+            </p>
+            <p class="research-result">
+              行业固定效应、替代因变量与事件研究结果显示：ESG
+              综合水平与市场韧性显著正相关，评级分歧与市场韧性显著负相关。XGBoost
+              测试集 R² = 0.508。
+            </p>
+            <div class="tags">
+              <span>ESG</span><span>Event Study</span><span>XGBoost</span><span>SHAP</span>
+            </div>
+          </article>
+          <aside class="methods-card">
+            <div>
+              <p class="card-label">METHODS &amp; DATA</p>
+              <ul>
+                <li>多源 ESG 与金融行情数据整合</li>
+                <li>行业固定效应与事件研究</li>
+                <li>随机森林、GBDT 与 XGBoost</li>
+                <li>SHAP 模型解释与稳健性检验</li>
+              </ul>
+            </div>
+            <p>
+              Current interests
+              <strong>FinTech · Green Finance · Behavioral Finance</strong>
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section archive-section" id="archive">
+        <div class="section-index"><span>02</span><p>ARCHIVE</p></div>
+        <div class="archive-grid">
+          <div>
+            <div class="section-heading compact">
+              <p class="overline">ACADEMIC EXPERIENCE</p>
+              <h2>Selected Archive</h2>
+            </div>
+            <div class="timeline">
+              <article><time>2026.07</time><div><h3>哈尔滨工业大学“大数据与商务分析”研究生国际暑期学校</h3><p>营员 · 金融科技方向</p></div></article>
+              <article><time>2026.07</time><div><h3>南京大学跨学科大数据挖掘理论及应用暑期课程</h3><p>营员 · 金融科技方向</p></div></article>
+              <article><time>2026.07</time><div><h3>中国金融学术年会</h3><p>参会者 · 金融科技、绿色金融与行为金融</p></div></article>
+              <article><time>2026.03—04</time><div><h3>北京大学经济学院系列学术讲座与工作坊</h3><p>5 场 · AI 与量化投资、ETF、金融科技、ESG 与期刊发表</p></div></article>
+            </div>
           </div>
-        </article>
-        <article class="research-item">
-          <div class="research-number">02</div>
-          <div class="research-body">
-            <p class="research-type">研究构想</p>
-            <h3>企业违规公开、风险重估与融资条件变化</h3>
-            <h4>从信息进入公众视野到资本市场再定价</h4>
-            <p>关注企业违规信息首次公开后的风险重估过程，以及市场定价、信用风险与融资条件之间的传导关系。</p>
-            <div class="tags"><span>公司金融</span><span>因果推断</span><span>风险定价</span></div>
+          <div class="award-column">
+            <p class="overline">AWARDS &amp; COMPETITIONS</p>
+            <article><span>2026</span><h3>第十九届“认证杯”数学中国数学建模网络挑战赛</h3><p>第一阶段国家级三等奖 · 第二阶段国家级优秀奖</p></article>
+            <article><span>2026</span><h3>第十六届全国大学生计算机应用能力与数字素养大赛</h3><p>Microsoft Office 智能办公国家级三等奖</p></article>
+            <article><span>2026</span><h3>信息技术与素养 / 数据分析与可视化</h3><p>市级一等奖 / 市级三等奖</p></article>
+            <article><span>2025—26</span><h3>北京工业大学耿丹学院</h3><p>校级优秀学生干部</p></article>
           </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section awards" id="awards">
-      <div class="section-label"><span>03</span><p>竞赛与荣誉 / AWARDS</p></div>
-      <div class="awards-grid">
-        <div class="awards-intro"><h2>实践，是检验想法的另一种方式。</h2><p>在数学建模、数据分析与数字素养竞赛中，将研究问题转化为结构化方案。</p></div>
-        <div class="award-list">
-          <article><span>2026</span><div><h3>第十九届“认证杯”数学中国数学建模网络挑战赛</h3><p>第一阶段 · 国家级三等奖</p></div></article>
-          <article><span>2026</span><div><h3>第十六届全国大学生计算机应用能力与数字素养大赛</h3><p>Office 智能办公市级一等奖 · 信息技术与素养市级一等奖</p></div></article>
-          <article><span>2026</span><div><h3>全国大学生计算机应用能力与数字素养大赛</h3><p>数据分析与可视化 · 市级三等奖</p></div></article>
-          <article><span>2026</span><div><h3>北京工业大学耿丹学院</h3><p>2025—2026 学年校级优秀学生干部</p></div></article>
         </div>
-      </div>
-    </section>
-
-    <section class="section capabilities">
-      <div class="section-label"><span>04</span><p>技能与经历 / CAPABILITIES</p></div>
-      <div class="capability-grid">
-        <div class="leadership">
-          <p class="card-label">LEADERSHIP</p><h2>把学习共同体变成真实的连接。</h2>
-          <p>校英语社创始社长，组织 2 场百人规模英语活动，累计参与超过 400 人；同时担任学院英语学习小组负责人。</p>
-          <p class="academic-note">持续参加北京大学经济学院公开学术讲座，拓展经济金融研究视野。</p>
+        <div class="skills-grid">
+          <article><span>01</span><p>RESEARCH</p><strong>行业固定效应回归 · 事件研究 · 稳健性检验</strong></article>
+          <article><span>02</span><p>MODELING</p><strong>XGBoost · SHAP · 指标构建 · 数据可视化</strong></article>
+          <article><span>03</span><p>TOOLS</p><strong>Excel · Stata · R · MATLAB · LaTeX</strong></article>
+          <article><span>04</span><p>LANGUAGE</p><strong>CET-4 497 · 普通话二级甲等 91.5</strong></article>
         </div>
-        <div class="skill-list">
-          <div><span>01</span><h3>研究方法</h3><p>事件研究 · 计量分析 · 因果推断</p></div>
-          <div><span>02</span><h3>数据工具</h3><p>MATLAB · Excel · 数据可视化</p></div>
-          <div><span>03</span><h3>学术表达</h3><p>LaTeX · 中文研究写作 · 英文文献阅读</p></div>
-          <div><span>04</span><h3>语言能力</h3><p>CET-4 497 · 普通话二级甲等（91.5）</p></div>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="contact" id="contact">
-      <p class="eyebrow">CONTACT / CONNECT</p>
-      <h2>对研究、竞赛或新的想法<br>保持开放。</h2>
-      <a class="contact-link" href="https://github.com/Jasonzhang025100" target="_blank" rel="noreferrer">GitHub · Jasonzhang025100 <span aria-hidden="true">↗</span></a>
-    </section>
-    <footer><p>© 2026 张智博</p><p>FINANCE · DATA · RESEARCH</p><a href="#top">返回顶部 ↑</a></footer>
-  </main>
-</body>
+      <section class="section journey-section" id="journey">
+        <div class="section-index dark-index"><span>03</span><p>JOURNEY</p></div>
+        <div class="journey-heading">
+          <p class="overline">ACADEMIC &amp; CAMPUS LIFE</p>
+          <h2>Beyond the résumé.</h2>
+          <p>学术活动、学生组织与日常生活，共同构成我理解世界和组织行动的方式。</p>
+        </div>
+        <div class="photo-grid">
+          <figure class="photo-card photo-wide">
+            <div class="photo-frame"><img src="assets/tsinghua-event.webp" alt="在清华大学经济管理学院参加学术活动" /></div>
+            <figcaption><span>ACADEMIC ACTIVITY</span><strong>清华大学经济管理学院</strong><p>以开放的姿态进入更广阔的经济与管理学术现场。</p></figcaption>
+          </figure>
+          <figure class="photo-card">
+            <div class="photo-frame"><img src="assets/cet-mock-event.webp" alt="校英语社组织四级模拟活动" /></div>
+            <figcaption><span>CAMPUS LEADERSHIP</span><strong>校英语社 · 四级模拟活动</strong><p>创始社长；组织 2 场百人规模活动，累计参与超过 400 人。</p></figcaption>
+          </figure>
+          <figure class="photo-card">
+            <div class="photo-frame portrait-photo"><img src="assets/life-dog.webp" alt="张智博与小狗的生活照" /></div>
+            <figcaption><span>DAILY LIFE</span><strong>Keep curiosity alive.</strong><p>研究之外，也保留对生活、动物与偶然相遇的兴趣。</p></figcaption>
+          </figure>
+          <figure class="photo-card photo-wide">
+            <div class="photo-frame mirror-photo"><img src="assets/life-mirror.webp" alt="张智博的生活照" /></div>
+            <figcaption><span>PORTRAIT</span><strong>张智博 · Zhibo Zhang</strong><p>Based in Beijing · Open to research, competitions and ideas.</p></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <p class="overline">CONTACT</p>
+        <h2>Let’s connect.</h2>
+        <p>欢迎就金融研究、数据分析、学生竞赛或新的想法与我交流。</p>
+        <div class="contact-links">
+          <a href="mailto:zhibozhang060427@outlook.com">Email <span>↗</span></a>
+          <a href="https://github.com/Jasonzhang025100" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+        </div>
+      </section>
+      <footer><p>张智博 · Zhibo Zhang</p><p>© 2026</p></footer>
+    </main>
+  </body>
 </html>
