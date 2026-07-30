@@ -59,6 +59,8 @@ a {
 
 .avatar {
   position: relative;
+  display: block;
+  flex: 0 0 32px;
   width: 32px;
   height: 32px;
   overflow: hidden;
